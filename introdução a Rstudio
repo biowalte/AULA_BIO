@@ -1,0 +1,35 @@
+#leitura de arquivo da aula de bioesta
+
+dados = read.table("tartaruga.txt", head = TRUE)
+dados
+
+
+dados2 = read.table("PEIXES.csv", header = TRUE, sep = ",")
+dados2
+
+##Sumarização
+##str(nome do objeto, exemplo dados2)
+##summary(dados2)
+
+##selecionando colunas
+
+#dados$length
+#mean(dados$length)
+#min(dados$length)
+#max(dados$length)
+#sd(dados$length)
+#var(dados$length)
+#log(dados$length)
+#sqrt(dados$length)
+#plot(dados$length)
+
+dados2$Comprimento_boca
+plot(dados2$Comp_barbatana, dados2$Largura_boca,
+col ="red",
+bg = "blue")
+
+#col
+#pch
+#bg
+#ylab
+#xlab
