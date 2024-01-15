@@ -1,3 +1,4 @@
+### apenas uma anotação para uma aula de Introdução ao Rstudio para Bioestatística
 #leitura de arquivo da aula de bioesta
 
 dados = read.table("tartaruga.txt", head = TRUE)
